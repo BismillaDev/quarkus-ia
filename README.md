@@ -1,3 +1,11 @@
+# to check if API responds :
+
+make a postman request (POST):
+
+http://localhost:8080/hal9000/ask
+
+body : {"question": "give me the code for a javascript visual interface for a chatbot"}
+
 # before anything
  
 You must first download and install Ollama at <https://ollama.com/download> and it must be launched so that your API works locally.
