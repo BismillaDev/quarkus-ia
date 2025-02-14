@@ -1,3 +1,23 @@
+# before anything
+ 
+You must first download and install Ollama at <https://ollama.com/download> and it must be launched so that your API works locally.
+
+Then, open a cmd and type : 
+
+```shell script
+ollama --version
+```
+
+to see if ollama is well setup
+
+you can then type : 
+
+```shell script
+ollama run mistral
+```
+
+to use mistral, you can now close the cmd but /!\ beware, ollama must be launched !
+
 # code-with-quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
